@@ -1,0 +1,25 @@
+/*
+
+  STYLES
+
+  Add custom styles here.
+
+*/
+
+  @media (min-width: 600px) {
+#hoverhax:hover:after{
+  content:  attr(data);
+  position: absolute;
+  color: black;
+  padding-left: 2px 4px;
+  font-size: 1.15rem;
+  display: flex;
+  left: 58%;
+  margin-top: -2rem;
+}
+}
+
+#hoverhax a { 
+  text-decoration: none;
+  color: black;
+}

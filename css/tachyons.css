@@ -8314,7 +8314,6 @@ img {
     color: black;
     padding-left: 2px 4px;
     font-size: 1.15rem;
-    display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
     left: 58%;
@@ -8329,7 +8328,6 @@ img {
     color: black;
     padding-left: 2px 4px;
     font-size: 1.15rem;
-    display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
     margin-top: 1rem;

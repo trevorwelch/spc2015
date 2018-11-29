@@ -1,0 +1,303 @@
+@font-face {
+    font-family: 'tegaki';
+    src: url('07YsashisaGothicTegaki.otf') format('otf');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@media (min-width: 600px) {
+  #hoverhax:hover:after {
+    content: attr(data);
+    position: absolute;
+    color: black;
+    padding-left: 2px 4px;
+    font-size: 1.15rem;
+    display: -ms-flexbox;
+    display: flex;
+    left: 58%;
+    margin-top: 1rem;
+  }
+}
+
+#hoverhax a {
+  text-decoration: none;
+  color: black;
+}
+
+/* Set height to 100% for body and html to enable the background image to cover the whole page: */
+body, html {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    /*overflow: hidden;*/
+    font-family: 'tegaki';
+    text-align: center;
+     
+}
+
+h2 {
+    /*background-image: linear-gradient(180deg, #739bed, #739bed 25px, #ffffff 25px, #ffffff 50px);*/
+    font-weight: normal;
+    padding-left: 5%;
+    padding-right: 5%;
+
+}
+
+h3 {
+    font-size: 1.25em;
+    font-weight: normal;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+footer {
+    padding: 20px;
+
+}
+
+p {
+    padding-left: 5%;
+    padding-right: 5%;
+    text-justify: inter-word;
+    text-align: justify;
+}
+
+#main-text {
+    max-width: 843px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+#photo-main {
+    text-align: center;
+}
+
+#photo-main img {
+    height: auto;
+    max-width: 760px;
+}
+
+.bgimg {
+    /* Background image */
+    background-image: repeating-linear-gradient(180deg, #d3d3d3, #ffffff 25px, #ffffff 25px, #ffffff 50px);
+    
+    position: absolute;
+    height: 100%;
+    width: 100%;
+   
+    background-repeat: repeat;
+
+      border: 25px solid #ffffff;
+    box-sizing: border-box;
+}
+
+/* Position text in the top-left corner */
+.topleft {
+    position: absolute;
+    top: 0;
+    left: 16px;
+}
+
+/* Position text in the bottom-left corner */
+.bottomleft {
+    position: absolute;
+    bottom: 0;
+    left: 16px;
+}
+
+/* Position text in the middle */
+.middle {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.nav {
+
+    text-align: center;
+    line-height: 30px;
+    font-size: 26px;
+    letter-spacing: 3px;
+    padding: 8px;
+}
+
+.nav span {
+
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.active {
+    background-color: #739bed;
+    padding-right: 1px;
+    padding-left: 3px;
+}
+
+
+a:hover {
+
+    background-color: #739bed;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+li {
+    list-style-type: none;
+}
+
+
+#logo-center {
+    
+    width: 40%;
+    min-width: 300px;
+    max-width: 500px;
+}
+
+/* Style the <hr> element */
+hr {
+    margin: auto;
+    width: 40%;
+}
+
+#contact {
+    position: relative;
+    top: 60%;
+    width: 100%;
+    height: 180px;
+    font-family: 'arquitecta-book';
+   
+    color: #000000;
+    
+    background-color: #ffffff;
+    
+}
+
+#top-nav {
+    background: white;
+    padding: 5px;
+}
+
+#contact a{
+    
+    text-decoration: none;
+    color:#000000;
+}
+
+#contact a:hover{
+    
+    color: #000000;
+}
+
+#title-text {
+    text-align: center;
+    line-height: 30px;
+    font-size: 30px;
+    letter-spacing: 3px;
+    padding: 8px;
+    padding-top: 15px;
+}
+
+#contact-text {
+    text-align: center;
+    line-height: 30px;
+    font-size: 20px;
+    letter-spacing: 0px;
+    padding: 8px;
+}
+
+#fb {
+    max-width: 25px;
+    padding:5px;
+}
+
+#insta {
+    max-width: 25px;
+    padding:5px;
+}
+
+
+
+
+@media (max-width:600px) {
+
+
+    .myImg {
+      object-fit: cover;
+      width: 100%;
+      /*height: 180px;*/
+
+    }
+    
+    #title-text {
+        
+        font-size: 24px;
+    }
+    
+     #contact-text {
+        
+        font-size: 13px;
+    }
+
+
+    .nav {
+
+        text-align: center;
+        line-height: 20px;
+        font-size: 18px;
+        letter-spacing: 3px;
+        padding: 2px;
+    }
+
+    .nav span {
+
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+}
+
+
+@media (min-width: 1280px) {
+    
+    .myImg {
+      object-fit: cover;
+      width: 50%;
+      /*height: 100%;*/
+    }
+    
+    #title-text {
+        
+        font-size: 35px;
+    }
+    
+     #contact-text {
+        
+        font-size: 20px;
+    }
+}
+
+}
+
+@media (min-width: 3000px) {
+    
+    #title-text {
+        
+        font-size: 45px;
+    }
+    
+     #contact-text {
+        
+        font-size: 35px;
+    }
+}
+
+}

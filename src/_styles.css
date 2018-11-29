@@ -19,6 +19,19 @@
 }
 }
 
+  @media (min-width: 600px) {
+#hoverhax2:hover:after{
+  content:  attr(data);
+  position: absolute;
+  color: black;
+  padding-left: 2px 4px;
+  font-size: 1.15rem;
+  display: flex;
+  margin-top: 1rem;
+  left: 50%;
+}
+}
+
 #hoverhax a { 
   text-decoration: none;
   color: black;

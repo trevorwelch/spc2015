@@ -8314,11 +8314,24 @@ img {
     color: black;
     padding-left: 2px 4px;
     font-size: 1.15rem;
-    display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
     left: 58%;
     margin-top: -2rem;
+  }
+}
+
+@media (min-width: 600px) {
+  #hoverhax2:hover:after {
+    content: attr(data);
+    position: absolute;
+    color: black;
+    padding-left: 2px 4px;
+    font-size: 1.15rem;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 1rem;
+    left: 50%;
   }
 }
 

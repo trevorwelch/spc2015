@@ -9,7 +9,7 @@
 
 @media (min-width: 600px) {
   #hoverhax:hover:after {
-    content: attr(data);
+    content: url(zebra.png);
     position: absolute;
     color: black;
     padding-left: 2px 4px;
